@@ -1,0 +1,123 @@
+/*--imported font--*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+/*navbar start*/
+nav{
+    font-family: 'Space Grotesk', sans-serif;
+    height: 100px;
+    box-shadow: 3px 1px 10px;
+}
+.offcanvas-nav a{
+    color: #282828;
+}
+.navbar-brand a{
+    color: #4d4c4c;
+}
+.navbarLarge a{
+    border: 4px solid transparent;
+    color: #282828;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+.navbarLarge a:hover, .navbarLarge a:active{
+    font-weight: 500;
+    color: orangered;
+    border-bottom: 4px solid orangered;
+    transition: ease-in-out;
+
+}
+.dropdown-menu{
+    padding-right: 10px;
+    
+}
+.dropdown-item:hover{
+    background-color: white;
+}
+.appoinment-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#search-collapse{
+    position: absolute;
+    right: 2px;
+    background-color: rgba(255, 68, 0, 0.2);
+    padding: 10px;
+    z-index: 10;
+}
+#offcanvas-nav{
+    background-color: #ffeee4f5;
+}
+.offcanvas-footer{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+.offcanvas-footer i{
+    margin: 5px;
+    font-size: larger;
+}
+.offcanvas-footer i:hover{
+    font-size: x-large;
+    transition: .3s ease-in-out;
+    color: blue;
+    cursor: pointer;
+}
+/* navbar end */
+
+.landing{
+    background-image: linear-gradient(to top left, rgba(255, 68, 0, 0.178), white);
+    padding-bottom: 50px;
+}
+.landing-text{
+    margin-top: 20px;
+    padding: 10px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+}
+p{
+font-family: 'calibri',;
+font-size: 16px;
+}
+#about{
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/barber-about.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 20px;
+}
+.profile-image{
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 12%;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+}
+.about-text{
+    margin: 20px;
+    padding: .5rem;
+}
+.map-area{
+    height: 300px;
+}
+
+
+/* footer area start */
+    footer{
+        display: grid;
+        height: 100px;
+        background-color: rgb(53, 53, 71);
+        align-items: center;
+    }
+/* footer area end */
+
+/* mobile css here--*/
+@media screen and (max-width:775px) {
+    
+}
